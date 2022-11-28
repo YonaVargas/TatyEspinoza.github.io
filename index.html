@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="icon" type="image/png" href="assets/img/favicon-32x32.png">
+    <script src="https://kit.fontawesome.com/ae096d9e72.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+</head>
+
+
+<body>
+    <!--Navbar-->
+    <nav class="navbar navbar fixed-top navbar-expand-lg bg-#8fbc8f text-dark mt-2 p-3">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="assets/img/logo.jpg" alt="Logo" width="55" height="40" class="d-inline-block align-text-top">
+                <b>Taty Espinoza</b>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse text-dark" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="#Inicio"><b> Inicio</b></a>
+                    <a class="nav-link active text-dark" aria-current="page" href="#Mis-trabajos"><b>Mis
+                            Trabajos</b></a>
+                    <div class="dropdown">
+                        <button class="btn btn-success dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Contacto
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="https://www.linkedin.com/in/tatiana-espinoza-8b0a383b/"
+                                    target="_blank">Linkedin</a></li>
+                            <li><a class="dropdown-item" href="https://github.com/TatyEspinoza"
+                                    target="_blank">GitHub</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!--Fin navbar-->
+    <!--imagenes carousel-->
+    <div class="carousel slide" id="carouselExampleIndicators" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button class="active" data-bs-slide-to="0" data-bs-target="#carouselExampleIndicators" type="button"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button data-bs-slide-to="1" data-bs-target="#carouselExampleIndicators" type="button"
+                aria-label="Slide 2"></button>
+            <button data-bs-slide-to="2" data-bs-target="#carouselExampleIndicators" type="button"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner mt-3 p-3">
+            <div class="carousel-item active">
+                <img class="d-block w-90" src="assets/img/inicio.jpg" alt="portafolio"/>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-90" src="assets/img/presentacion.JPG" alt="Mensaje de Presentación"/>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-90" src="assets/img/contacto.JPG" alt="correo contacto"/>
+            </div>
+        </div>
+        <button class="carousel-control-prev" data-bs-slide="prev" data-bs-target="#carouselExampleIndicators"
+            type="button">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" data-bs-slide="next" data-bs-target="#carouselExampleIndicators"
+            type="button">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!--herramientas-->
+    <main class="container-fluid mt-2 p-3">
+        <h2><b>Herramientas utilizadas</b></h2>
+        <img src="assets/img/Herramientas.jpg" alt="Herramientas utilizadas">
+    </main>
+
+    <!--cads-->
+    <section id="Mis-trabajos" class="mt-5 py-5">
+        <br>
+        <h2 class="display-4 fw-bold text-center text-dark mb-3">Mis Trabajos</h2>
+
+        <div class="container">
+            <div class="row mt-3">
+
+                <div class="col-xs-12 col-sm-6 col-md-4">
+
+                    <div class="card mt-3 mb-4 text-center">
+                        <div class="card-header">
+                            <h5 class="card-title fw-bold">CV HTML</h5>
+                        </div>
+                        <img src="assets/img/CV.jpg" class="card-img-top" alt="CV">
+                        <div class="card-body">
+                            <p class="card-text border-top border-bottom"><b>Currículum Vitae en HTML.</b></p>
+                            <a href="https://github.com/TatyEspinoza/CV-HTML.git" class="btn btn-success"
+                                target="_blank" title="Ir CV HTML">Ver</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <div class="card mt-3 mb-4 text-center">
+                        <div class="card-header">
+                            <h5 class="card-title fw-bold">Landing Page</h5>
+                        </div>
+                        <img src="assets/img/Captura web_28-11-2022_246_127.0.0.1.jpg" class="card-img-top"
+                            alt="landing-page">
+                        <div class="card-body">
+                            <p class="card-text border-top border-bottom"><b>Construyendo landing page.</b></p>
+                            <a href="https://github.com/TatyEspinoza/D2-Landing-page.git" class="btn btn-success"
+                                target="_blank" title="Ir a Landing page">Ver</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <div class="card mt-3 mb-4 text-center">
+                        <div class="card-header">
+                            <h5 class="card-title fw-bold">Posicionamiento con CSS</h5>
+                        </div>
+                        <img src="assets/img/Captura web_28-11-2022_0286_127.0.0.1.jpeg" class="card-img-top"
+                            alt="foto2">
+                        <div class="card-body">
+                            <p class="card-text border-top border-bottom"><b>Posicionamiento con CSS.</b></p>
+                            <a href="https://github.com/TatyEspinoza/Posicionamiento-css" class="btn btn-success"
+                                target="_blank" title="Posicionamiento con CSS">Ver</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <div class="card mt-3 mb-4 text-center">
+                        <div class="card-header">
+                            <h5 class="card-title fw-bold">Bootstrap</h5>
+                        </div>
+                        <img src="assets/img/cupon.jpg" class="card-img-top" alt="Cupon">
+                        <div class="card-body">
+                            <p class="card-text border-top border-bottom"><b>Uso del framework Bootstrap.</b></p>
+                            <a href="https://github.com/TatyEspinoza/Framework-Bootstrap.git" class="btn btn-success"
+                                target="_blank" title="Ir a Cupon">Ver</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <div class="card mt-3 mb-4 text-center">
+                        <div class="card-header">
+                            <h5 class="card-title fw-bold">GitHub</h5>
+                        </div>
+                        <img src="assets/img/card-5.jpg" class="card-img-top" alt="foto2">
+                        <div class="card-body">
+                            <p class="card-text border-top border-bottom"><b>Terminal, Git y GitHub.</b></p>
+                            <a href="https://github.com/TatyEspinoza/fdsw-github" class="btn btn-success"
+                                target="_blank" title="Ir">Ver</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <div class="card mt-3 mb-4 text-center">
+                        <div class="card-header">
+                            <h5 class="card-title fw-bold">Portafolio</h5>
+                        </div>
+                        <img src="assets/img/Portafolio.jpg" class="card-img-top" alt="foto2">
+                        <div class="card-body">
+                            <p class="card-text border-top border-bottom"><b>Portafolio.</b></p>
+                            <a href="https://github.com/TatyEspinoza/fdsw-github" class="btn btn-success"
+                                target="_blank" title="Ir">Ver</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        </div>
+
+    </section>
+
+    <!--Footer-->
+    <div class="container-fluid nav-color-fondo bg- text-dark">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3">
+            <div class="col-md-4 d-flex align-items-center">
+                <span class="text-dark"> © 2022 Taty Espinoza G30</span>
+            </div>
+
+            <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                <li class="ms-4"><a class="text-muted" href="https://github.com/TatyEspinoza" target="_blank"
+                        title="Ir a GitHub"><i class="fa-brands fa-github fa-xl"></i>
+                    </a></li>
+
+                <li class="mx-4"><a class="text-muted" href="https://www.linkedin.com/in/tatiana-espinoza-8b0a383b/"
+                        target="_blank" title="Ir a Linkedin"><i class="fa-brands fa-linkedin fa-xl"></i>
+                    </a></li>
+            </ul>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
